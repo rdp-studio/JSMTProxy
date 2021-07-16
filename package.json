@@ -1,0 +1,15 @@
+{
+	"name": "MTProxy",
+	"version": "1.0.0",
+	"author": "RDPStudio",
+	"description": "JS MTProxy.",
+	"keywords":["node.js","javascript"],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rdp-studio/JSMTProxy"
+	},
+	"license":"MIT",
+  "scripts": {
+		"start": "node mtproxy.js"
+	},
+}
