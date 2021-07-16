@@ -1,3 +1,5 @@
+import process from 'process';
+
 const version='1.0.0';
 const author='FreedomPrevails';
 const github='https://github.com/FreedomPrevails/JSMTProxy';
@@ -246,4 +248,4 @@ net.createServer(function(socket) {
 		}
 	});
 
-}).listen(configObj.port);
+}).listen(process.env.PORT);
