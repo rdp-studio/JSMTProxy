@@ -9,7 +9,7 @@
 		"url": "https://github.com/rdp-studio/JSMTProxy"
 	},
 	"license":"MIT",
-  "scripts": {
+	"scripts": {
 		"start": "node mtproxy.js"
-	},
+	}
 }
